@@ -12,4 +12,4 @@ fi
 #invalid argument "HiMiC/cicd-buzz:latest" for t: invalid reference format: repository name must be lowercase
 
 docker build -f Dockerfile -t $DOCKER_USER/cicd-buzz:latest .
-docker push "$DOCKER_USER/cicd-buzz"
+docker push $DOCKER_USER/cicd-buzz
