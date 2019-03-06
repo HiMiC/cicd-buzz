@@ -1,0 +1,1 @@
+[![BCH compliance](https://bettercodehub.com/edge/badge/HiMiC/cicd-buzz?branch=master)](https://bettercodehub.com/)
