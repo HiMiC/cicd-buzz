@@ -11,5 +11,5 @@ fi
 #.travis/deploy_dockerhub.sh: 8: .travis/deploy_dockerhub.sh: HiMiC/cicd-buzz: not found
 #invalid argument "HiMiC/cicd-buzz:latest" for t: invalid reference format: repository name must be lowercase
 
-docker build -f Dockerfile -t "$DOCKER_USER/cicd-buzz":$TAG .
+docker build -f Dockerfile -t $DOCKER_USER/cicd-buzz:latest .
 docker push "$DOCKER_USER/cicd-buzz"
